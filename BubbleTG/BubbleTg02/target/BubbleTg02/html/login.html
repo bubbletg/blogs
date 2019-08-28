@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta tag start-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="edustar">
+    <meta name="author" content="khanalprem">
+    <meta name="copyright" content="khanalprem">
+
+    <!--title-->
+    <title>留言</title>
+    <!-- faveicon start   -->
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+
+    <!-- stylesheet start -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/bubbletg.css">
+</head>
+
+<body>
+<div id="header"></div>
+<section class="breadcrumb" style="background-image: url(../images/background/breadcrumb.jpg);">
+    <div class="breadcrumb-overlay"></div>
+    <div class="container">
+        <h1><a href="login.html">登录</a></h1>
+        <span><a href="index.html">首页</a></span><span><i class="fa fa-angle-right"></i>登录</span>
+    </div>
+</section>
+
+<section class="contact-page inner-page">
+    <!--在中间-->
+    <div class="container">
+        <div class="row">
+            <!--手机 平板 电脑-->
+            <div class="col-xs-12 col-sm-6 col-md-4 container">
+                <form id="loginForm" action="user" method="post" accept-charset="utf-8">
+                    <input type="hidden" name="action" value="user"/>
+                    <input name="userName" type="text" placeholder="请输入账号或邮箱" autocomplete="off">
+                    <input name="userPassword" type="password" placeholder="请输入密码" autocomplete="off">
+                    <div class="verify">
+                        <input name="check" type="text" placeholder="请输入验证码" autocomplete="off">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <span><img style="width: 100%" src="../checkCode" alt=""
+                                           onclick="changeCheckCode(this)"></span>
+                                <script type="text/javascript">
+                                    //图片点击事件
+                                    function changeCheckCode(img) {
+                                        img.src = "../checkCode?" + new Date().getTime();
+                                    }
+                                </script>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="submit_btn">
+                                    <button type="submit" id="btu_sub">登录</button>
+                                    <div class="auto_login">
+                                        <input type="checkbox" name="" class="checkbox">
+                                        <span>自动登录</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+                <div class="reg">没有账户？<a href="register.html">立即注册</a></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--Footer Bottom-->
+<div id="footer"></div>
+
+<!-- scroll top -->
+<a class="scroll-top fa fa-angle-up" href="javascript:void(0)"></a>
+<!-- srolltop end -->
+
+<script src=../js/jquery-3.2.1.min.js></script>
+<script src=../js/bootstrap.min.js></script>
+<script src=../js/jquery.mixitup.min.js></script>
+<script src=../js/jquery.fancybox.min.js></script>
+<script src=../js/jquery.counterup.min.js></script>
+<script src=../js/waypoints.min.js></script>
+<script src=../js/jquery.magnific-popup.min.js></script>
+<script src=../js/owl.carousel.min.js></script>
+<!-- <script src=js/countdown.js></script> -->
+<script src=../js/script.js></script>
+<!--导入布局js，共享header和footer-->
+<script type="text/javascript" src="../js/include.js"></script>
+</body>
+<script>
+    $(function () {
+        $("#loginForm").submit(function () {
+            //登录
+            $.post("../user/loginUser",$("#loginForm").serialize(),function (data) {
+                if (data.flag) {
+                    //登录成功
+                    location.href = "index.html";
+                } else {
+                    //登录失败
+                    $("#errorMsg").html(data.errorMsg);
+                }
+            });
+            return false;
+        });
+    })
+</script>
+
+</html>
+

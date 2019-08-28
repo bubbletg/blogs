@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta tag start-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="edustar">
+    <meta name="author" content="khanalprem">
+    <meta name="copyright" content="khanalprem">
+
+    <!--title-->
+    <title>留言</title>
+    <!-- faveicon start   -->
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+
+    <!-- stylesheet start -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/bubbletg.css">
+
+</head>
+
+<body>
+<div id="header"></div>
+<section class="breadcrumb" style="background-image: url(../images/background/breadcrumb.jpg);">
+    <div class="breadcrumb-overlay"></div>
+    <div class="container">
+        <h1><a href="Message.jsp">留言</a></h1>
+        <span><a href="index.jsp">首页</a></span><span><i class="fa fa-angle-right"></i>留言</span>
+    </div>
+</section>
+
+<section class="Message-page inner-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="title inner-page-title">
+                    <h3>联系我</h3>
+                </div>
+                <div class="Message-info">
+                    <p><i class="fa fa-phone"></i>17863273072</p>
+                    <p><i class="fa fa-qq"></i>363491343</p>
+                    <p><i class="fa fa-envelope"></i>bubble.tiangui@gmail.com</p>
+                    <p><i class="fa fa-envelope"></i>bubbletg@163.com</p>
+                    <p><i class="fa fa-map-marker"> </i>中国 上海</p>
+                    <p><i class="fa fa-clock-o"></i>全天在线，有时候在上课，看到会回</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="title inner-page-title">
+                    <h3>留言</h3>
+                </div>
+
+                <div class="row">
+                    <form id="contentFormFile" action="../Message/addMessageHeadurl" method="post" enctype="multipart/form-data">
+                        <div class="col-md-12">
+                            <div class="form-group message-portrait">
+                                <label>自定义头像吧<input id="MessageHeadurl" name="MessageHeadurl" type="file"/></label>
+                                <input type="submit" value="上传">
+                                <div class="testimonial-item">
+                                    <div class="testi-img message-img">
+                                        <img src="../images/users/1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <form id="contentForm">
+                        <div class="col-sm-6 ">
+                            <div class="form-group">
+                                <label>昵称 :</label>
+                                <input type="text" id="MessageName" name="MessageName" class="form-control"
+                                       placeholder="留下你的个性昵称吧">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Email :</label>
+                                <input type="text" id="MessageEmail" name="MessageEmail" class="form-control"
+                                       placeholder="email">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>内容 :</label>
+                                <textarea id="MessageContent" name="MessageContent" class="form-control messageHigh"
+                                          rows="6"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input class="btn btn-primary" type="submit" value="确认提交"></input>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer Bottom-->
+<div id="footer"></div>
+
+<!-- scroll top -->
+<a class="scroll-top fa fa-angle-up" href="javascript:void(0)"></a>
+<!-- srolltop end -->
+
+<script src=../js/jquery-3.2.1.min.js></script>
+<script src=../js/bootstrap.min.js></script>
+<script src=../js/jquery.mixitup.min.js></script>
+<script src=../js/jquery.fancybox.min.js></script>
+<script src=../js/jquery.counterup.min.js></script>
+<script src=../js/waypoints.min.js></script>
+<script src=../js/jquery.magnific-popup.min.js></script>
+<script src=../js/owl.carousel.min.js></script>
+<!-- <script src=js/countdown.js></script> -->
+<script src=../js/script.js></script>
+<!--导入布局js，共享header和footer-->
+<script type="text/javascript" src="../js/include.js"></script>
+</body>
+<script>
+    $(function () {
+        $("#contentForm").submit(function () {
+            $.post("../message/add", $("#contentForm").serialize(), function () {
+            });
+            return false;
+        });
+    });
+</script>
+
+</html>
