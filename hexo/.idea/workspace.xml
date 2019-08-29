@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58396473-7a77-42e1-ac68-0af9c2f7ae5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/pure - 副本/_config1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/pure/_config1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure - 副本/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure - 副本/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure - 副本/source/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure - 副本/source/images/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure - 副本/source/images/donate/alipayimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure - 副本/source/images/donate/alipayimg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure - 副本/source/images/donate/wechatpayimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure - 副本/source/images/donate/wechatpayimg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure/source/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/source/images/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure/source/images/donate/alipayimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/source/images/donate/alipayimg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure/source/images/donate/wechatpayimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/source/images/donate/wechatpayimg.png" afterDir="false" />
-    </list>
+    <list default="true" id="58396473-7a77-42e1-ac68-0af9c2f7ae5b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566956192181</updated>
       <workItem from="1566956193413" duration="2308000" />
+      <workItem from="1566961111022" duration="587000" />
     </task>
     <servers />
   </component>
@@ -107,7 +97,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

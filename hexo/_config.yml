@@ -78,4 +78,6 @@ theme: pure
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/bubbletg/bubbletg.github.io.git
+  branch: master
