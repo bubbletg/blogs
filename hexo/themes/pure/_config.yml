@@ -187,7 +187,7 @@ profile:
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: BubbleTg
-  author_title: Web Developer & Designer
+  author_title: JAVA Developer & Student
   author_description: 一个菜菜的程序员。
   location: Shanghai, China
   follow: https://github.com/bubbletg
@@ -228,8 +228,8 @@ profile:
   # My Personal Works
   works:
     name:
-      link: http://www.example.com
-      date: 2016
+      link: http://www.leyou.com
+      date: 2019
   # My Personal Projects
   projects:
     bubbletg/gulp-startpro: https://github.com/bubbletg/gulp-startpro
