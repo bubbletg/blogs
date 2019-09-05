@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dc8dd25-625a-4439-9106-7eed22f2398c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/linux下安装jdk.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/linux下安装jdk/QQ截图20190903112235.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/linux下安装jdk/QQ截图20190903113155.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/linux下安装jdk/jdk解压.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之冒泡排序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之冒泡排序/冒泡排序.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,6 +67,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Code\IdeaProjects\blogs\hexo\source\_posts\常见排序算法之冒泡排序" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -90,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567464853592</updated>
       <workItem from="1567464854833" duration="6636000" />
-      <workItem from="1567475941794" duration="4347000" />
+      <workItem from="1567475941794" duration="4984000" />
+      <workItem from="1567723740853" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="第一篇文章，用hexo 搭建个人博客">
       <created>1567465728934</created>
@@ -106,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567479298389</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第二篇文章，Linux 安装jdk">
+      <created>1567482927271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567482927271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +142,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一篇文章，用hexo 搭建个人博客" />
     <MESSAGE value="第二篇文章，jVM" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二篇文章，jVM" />
+    <MESSAGE value="第二篇文章，Linux 安装jdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二篇文章，Linux 安装jdk" />
   </component>
 </project>
