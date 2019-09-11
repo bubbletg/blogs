@@ -33,7 +33,17 @@ site:
     url: ../images/logo.png
   title: BubbleTg # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>
+     QQ：363491343<br>
+
+    微信：tiangui_<br>
+
+    我的个人网站：<a href="http://www.bubbletg.cn" target="view_window">www.bubbletg.cn</a><br>
+
+    我的博客：<a href="http://blog.bubbletg.cn" target="view_window">blog.bubbletg.cn</a><br>
+
+    我的GitHub：<a href="https://github.com/bubbletg" target="view_window">https://github.com/bubbletg</a><br>
+    </p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
