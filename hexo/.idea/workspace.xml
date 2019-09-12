@@ -104,6 +104,7 @@
       <workItem from="1568162217238" duration="3105000" />
       <workItem from="1568246940551" duration="3372000" />
       <workItem from="1568305021651" duration="598000" />
+      <workItem from="1568306019108" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="第一篇文章，用hexo 搭建个人博客">
       <created>1567465728934</created>
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568172912604</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="希尔排序，快速排序。">
+      <created>1568306175544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568306175544</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
