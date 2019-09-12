@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dc8dd25-625a-4439-9106-7eed22f2398c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之希尔排序.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之希尔排序/希尔排序交换法.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之快速排序.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之快速排序/常见排序算法之快速排序.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之归并排序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之归并排序/归并排序01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之归并排序/归并排序02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/常见排序算法之归并排序/排序总结.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/pure/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/pure/_config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -56,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../arithmetic" />
+    <property name="last_opened_file_path" value="D:/ProgramFiles/Git/bin/git.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,7 +66,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -101,7 +101,9 @@
       <workItem from="1567963789920" duration="1427000" />
       <workItem from="1568041908589" duration="3301000" />
       <workItem from="1568073123784" duration="3575000" />
-      <workItem from="1568162217238" duration="2975000" />
+      <workItem from="1568162217238" duration="3105000" />
+      <workItem from="1568246940551" duration="3372000" />
+      <workItem from="1568305021651" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="第一篇文章，用hexo 搭建个人博客">
       <created>1567465728934</created>
@@ -145,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568044818704</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="希尔排序，快速排序。">
+      <created>1568172912604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568172912604</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +180,7 @@
     <MESSAGE value="第二篇文章，Linux 安装jdk" />
     <MESSAGE value="选择，冒泡排序" />
     <MESSAGE value="插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="插入排序" />
+    <MESSAGE value="希尔排序，快速排序。" />
+    <option name="LAST_COMMIT_MESSAGE" value="希尔排序，快速排序。" />
   </component>
 </project>
