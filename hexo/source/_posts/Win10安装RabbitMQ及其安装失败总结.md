@@ -35,6 +35,24 @@ tags:
 
 请选择忽略。
 
+下载完，一直next,走后install.
+
+    安装完事儿后要记得配置一下系统的环境变量。
+
+此电脑-->鼠标右键“属性”-->高级系统设置-->环境变量-->“新建”系统环境变量
+
+变量名：ERLANG_HOME
+
+变量值就是刚才erlang的安装地址，点击确定。
+
+然后双击系统变量path
+
+点击“新建”，将%ERLANG_HOME%\bin加入到path中。
+
+    最后windows键+R键，输入cmd，再输入erl，看到版本号就说明erlang安装成功了。
+
+
+
 ### 1.2.2. 安装RabbitMQ
 
 {%asset_img clip_image007.png%}
