@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7dc8dd25-625a-4439-9106-7eed22f2398c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BubbleTG/BubbleTg/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BubbleTG/BubbleTg/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BubbleTG/BubbleTg/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BubbleTG/BubbleTg/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2020校招搜狗笔试编程题01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/HTTP协议.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/HTTP协议/Cook设置发送过程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/HTTP协议/HTTPS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/Servlet生命周期及运行原理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/TCP的三次握手与四次握手.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/TCP的三次握手与四次握手/tcp报头.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/TCP的三次握手与四次握手/tcp报头字段含义.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/TCP的三次握手与四次握手/三次握手.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/TCP的三次握手与四次握手/四次握手.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/剑指offerjava实现01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/机器硬件CPU与java内存模型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/机器硬件CPU与java内存模型/CPU通过Cache与主内存进行交互.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/机器硬件CPU与java内存模型/Cache与主存访问过速度对比.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/机器硬件CPU与java内存模型/java内存模型.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/机器硬件CPU与java内存模型/交互.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/机器硬件CPU与java内存模型/缓存一致协议.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/深入理解volatile关键字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/深入理解volatile关键字/JMM与原子性.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/深入理解volatile关键字/JMM与原子性01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/深入理解volatile关键字/volatile实现原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/生产者消费者问题java实现.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/计算机网络的七层协议.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/设计模式之七大原则.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BubbleTG/BubbleTg/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BubbleTG/BubbleTg/resume/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Win10安装RabbitMQ及其安装失败总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Win10安装RabbitMQ及其安装失败总结.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/用hexo搭建个人博客托管到GitHub上。.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/用hexo搭建个人博客托管到GitHub上。.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +81,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BubbleTG/BubbleTg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -109,6 +135,15 @@
       <workItem from="1568389674463" duration="2396000" />
       <workItem from="1568393233745" duration="736000" />
       <workItem from="1568469245132" duration="140000" />
+      <workItem from="1568597205343" duration="5076000" />
+      <workItem from="1568638298321" duration="1659000" />
+      <workItem from="1568707219766" duration="7000" />
+      <workItem from="1568766579056" duration="885000" />
+      <workItem from="1568935011942" duration="1920000" />
+      <workItem from="1569073019544" duration="4383000" />
+      <workItem from="1569231427614" duration="6334000" />
+      <workItem from="1569488595946" duration="843000" />
+      <workItem from="1570028800812" duration="736000" />
     </task>
     <task id="LOCAL-00001" summary="第一篇文章，用hexo 搭建个人博客">
       <created>1567465728934</created>

@@ -1,6 +1,6 @@
 ---
 title: 用hexo搭建个人博客托管到GitHub上。
-date: 2019-01-23 09:20:54
+date: 2017-01-23 09:20:54
 categories:
 	服务与软件安装
 tags: 
