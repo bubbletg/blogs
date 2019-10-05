@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dc8dd25-625a-4439-9106-7eed22f2398c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/Spring复习回顾之手写IOC容器.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/剑指offerjava实现02.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/剑指offerjava实现02.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/剑指offerjava实现02.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +118,7 @@
       <workItem from="1569073019544" duration="4383000" />
       <workItem from="1569231427614" duration="6334000" />
       <workItem from="1569488595946" duration="843000" />
-      <workItem from="1570028800812" duration="4405000" />
+      <workItem from="1570028800812" duration="5159000" />
     </task>
     <task id="LOCAL-00001" summary="第一篇文章，用hexo 搭建个人博客">
       <created>1567465728934</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570029586612</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="新">
+      <created>1570277067518</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570277067518</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +232,7 @@
     <MESSAGE value="插入排序" />
     <MESSAGE value="希尔排序，快速排序。" />
     <MESSAGE value="新文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="新文章" />
+    <MESSAGE value="新" />
+    <option name="LAST_COMMIT_MESSAGE" value="新" />
   </component>
 </project>
