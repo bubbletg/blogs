@@ -1,0 +1,24 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "个人播客。。。。。。。。。。。",
+  "main": "index.js",
+  "dependencies": {
+    "hexo": "^5.1.1",
+    "hexo-site": "file:hexo"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubbletg/blogs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bubbletg/blogs/issues"
+  },
+  "homepage": "https://github.com/bubbletg/blogs#readme"
+}
